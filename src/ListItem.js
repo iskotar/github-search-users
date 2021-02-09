@@ -2,7 +2,7 @@ import React from 'react';
 import { List, Avatar } from 'antd';
 
 const ListItem = ({user}) => {
-  console.log(user)
+
   return (
     <List.Item>
       <List.Item.Meta

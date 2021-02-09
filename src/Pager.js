@@ -8,7 +8,7 @@ const Pager = (props) => {
 
   return (
     <Pagination
-      total={count}
+      total={count > 1000 ? 1000 : count}
       pageSize={10}
       current={currentPage}
       showSizeChanger={false}

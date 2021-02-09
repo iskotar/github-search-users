@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@octokit/core": "^3.2.5",
-    "@octokit/rest": "^18.1.0",
     "antd": "^4.12.2",
     "bootstrap": "^4.6.0",
     "react": "^17.0.1",
