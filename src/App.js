@@ -4,7 +4,7 @@ import Pager from './Pager'
 import 'antd/dist/antd.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Octokit } from '@octokit/core'
-import { Input, Button, Row, Radio } from 'antd'
+import { Input, Button } from 'antd'
 import SearchResultList from './SearchResultList'
 import SimpleModal from './SimpleModal'
 import Sorter from './Sorter'
@@ -65,7 +65,7 @@ function App () {
         count={count}
         onChange={setCurrentPage}
       />
-      {count && <div className="mt-3">Total count: {count}</div>}
+      {count && <div className="mt-3">Total matches: {count}</div>}
       <SimpleModal onShow={showModal} onClose={setShowModal} text={textmodal}/>
     </div>
   )
